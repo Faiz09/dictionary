@@ -28,15 +28,15 @@ class Input
 
         if ($help) {
             echo(
-            "\n=======================================================
-                        \nDefine
+"=======================================================\n
+Define
 \n=======================================================\n
-Define is a terminal dictionary.
+Define is a terminal dictionary based on oxford Api. Not that much is here right now..
 
 Usage:
-define 'Hello world'
-\n\n  
+define hello\n
 ");
+            exit();
         }
     }
 
