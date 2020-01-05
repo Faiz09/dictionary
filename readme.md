@@ -20,4 +20,4 @@ add the following to the end of `~/.bashrc` file
     export PATH=$HOME/lab/dictionary:$PATH
     alias define='define.php'
     
- replace /lab/dictionary with actual path on disk
+ replace `/lab/dictionary` with actual path on disk
