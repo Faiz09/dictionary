@@ -1,7 +1,7 @@
 Define 
 --
 
-A command line dictionary. **[oxford dictionary]**
+A command line dictionary based on oxford api.
 
 how it works?
     
