@@ -3,7 +3,8 @@
 class Request
 {
     /*
-     * left intentionally, replace it
+     * left intentionally
+     * compatible with oxford api
      * */
     protected $appId = "9b25649d";
     protected $appKey = "176169540f69a845b6041ca9565dc750";

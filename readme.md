@@ -1,12 +1,23 @@
 Define 
 --
 
-A command line dictionary.
+A command line dictionary. **[oxford dictionary]**
 
-usage:
+how it works?
     
-    $ ./define.php "define"
+    $ define hello
     
     Meanings:
-    1: state or describe exactly the nature, scope, or meaning of
-    2: mark out the boundary or limits of
+    1: used as a greeting or to begin a telephone conversation
+    2: an utterance of ‘hello’; a greeting
+    3: say or shout ‘hello’
+    
+    
+Adding define command to terminal:
+
+add the following to the end of `~/.bashrc` file
+
+    export PATH=$HOME/lab/dictionary:$PATH
+    alias define='define.php'
+    
+ replace /lab/dictionary with actual path on disk

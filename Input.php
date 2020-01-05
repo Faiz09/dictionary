@@ -10,7 +10,7 @@ class Input
         global $argv;
         $this->input = array_slice($argv, 1, count($argv));
         $this->showHelp();
-        $this->word = $this->input[0];
+        $this->word = isset($this->input[0]) ? $this->input[0] : 'nothing';
     }
 
     /**
