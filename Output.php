@@ -7,6 +7,7 @@ class Output
     public function __construct($out)
     {
         $this->arr = $out;
+        $this->output();
     }
 
     private function output()
